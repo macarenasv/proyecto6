@@ -10,11 +10,11 @@ const HeroImg = () => {
 <img className="intro-img" src={banner1} alt="banner"/>
         </div>
         <div className="content">
-            <p>HI, I'M A FREELANCER.</p>
-            <h1>React Developer. </h1>
+            <p>HI, I'M MACARENA.</p>
+            <h1>Full Stack Developer. </h1>
             <div>
                 <Link to="/project"
-                className="btn">Project</Link>
+                className="btn">Projects</Link>
                 <Link to="/contact"
                 className="btn btn-light">Contact</Link>
             </div>

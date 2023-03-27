@@ -29,8 +29,12 @@ const Footer = () => {
 <h4> About me </h4>
 <p> I am Macarena Soto</p>
 <div className="social">
+<a href="https://www.linkedin.com/in/macarena-soto-vald%C3%A9s-8ab1b614a/">
 <FaLinkedin size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+</a>
+<a href="https://github.com/macarenasv">
 <FaGithub size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+</a>
 </div>
 
 

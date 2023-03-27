@@ -2,13 +2,15 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import HeroImg2 from '../components/HeroImg2'
 import Footer from '../components/Footer'
+import AboutContent from '../components/AboutContent'
 
 
 const About = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="About" text="Full Stack Developer"/> 
+      <HeroImg2 heading="About me" text="I am Macarena, a Full Stack Developer"/> 
+      <AboutContent/>
       <Footer/>
     </div>
   )
