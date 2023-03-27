@@ -25,6 +25,7 @@
 
 .prog {
     display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -32,6 +33,7 @@
     flex-direction: column;
     padding: 20px;
     align-items: center;
+    text-align: center;
   
 }
 
@@ -59,9 +61,16 @@
     
 }
 
-
-
 h3 {
 color: white;
 padding-top: 40px;
+}
+
+@media screen and (max-width: 740px){
+    span{
+       display: none;
+}}
+
+p{
+    align-items: center;
 }
