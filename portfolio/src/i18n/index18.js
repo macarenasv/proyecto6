@@ -1,21 +1,21 @@
-import i18next from 'i18next'
-import { eng } from "./en"
-import { esp } from "./es"
+// import i18next from 'i18next'
+// import { eng } from "./en"
+// import { esp } from "./es"
 
-i18next.init({
-    interpolation: {
-    escapeValue: false,
-},
-lng: 'en',
-resources: {
-    en: {
-        translation: eng,
+// i18next.init({
+//     interpolation: {
+//     escapeValue: false,
+// },
+// lng: 'en',
+// resources: {
+//     en: {
+//         translation: eng,
       
-    },
-    es: {
-        translation: esp,
-    },
-},
-})
+//     },
+//     es: {
+//         translation: esp,
+//     },
+// },
+// })
 
-export default i18next
+// export default i18next
